@@ -5,16 +5,20 @@
 h1,h2,h3,h4{
     font-family: 'Open Sans', sans-serif;
 }
-p,span,a,button{
+p,span,a,button,strong{
     font-family: 'Roboto Slab', serif;
 }
 h1{
     font-size: 50px;
 
 }
+a{
+ font-size: 14px;
+}
 p{
     margin-top: 15px;
     margin-bottom: 15px;
+    color: dimgray;
 }
 section{
     height: 100vh;
@@ -40,6 +44,7 @@ section{
     color: #fa3a5a;
 }
 .common__button{
+    text-decoration: none;
     background-color: #fa3a5a;
     color: white;
     padding: 10px 20px;
@@ -73,6 +78,10 @@ latest section */
 }
 .latest__content img{
     width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.latest__content img:hover{
+    transform: scale(1.05);
 }
 
 .content__wraper{
@@ -85,4 +94,46 @@ latest section */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.work__heading h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* client section */
+
+.container__children{
+    width: 50%;
+    margin: auto;
+}
+.client__header h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.client__header{
+    text-align: center;
+}
+.email__box{
+    margin-top: 100px;
+    text-align: center;
+    background: linear-gradient(90deg,#ff6b83,#ff0b34);
+    padding: 80px 100px;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.client__section{
+    background-image: url("../img/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot__ter p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
 }
