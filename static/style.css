@@ -16,17 +16,21 @@ p{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+section{
+    height: 800px;
+    padding-bottom: 350px;
+}
 
 /* header section style */
 
-.header__content{
+.common__content{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
     margin-top: 5%;
 }
-.header__content img{
+.common__content img{
     width: 100%;
 }
 .name__color{
@@ -51,8 +55,25 @@ p{
 dream section */
 
 .biography__section{
-    background-image: url('../img/peter_dream.png') !important;
+    background-image: url('../img/biography-bg.png') !important;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* 
+latest section */
+
+.latest__content{
+    width: 30%;
+    padding: 15px 15px 15px 15px;
+}
+.latest__content img{
+    width: 100%;
+}
+
+.content__wraper{
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
