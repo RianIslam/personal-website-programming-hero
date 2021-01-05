@@ -17,8 +17,11 @@ p{
     margin-bottom: 15px;
 }
 section{
-    height: 800px;
-    padding-bottom: 350px;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
 }
 
 /* header section style */
@@ -76,4 +79,10 @@ latest section */
  display: flex;
  justify-content: center;
  align-items: center;
+}
+.latest__work{
+    background-image: url("../img/latest-work-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
