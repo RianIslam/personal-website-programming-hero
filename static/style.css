@@ -10,7 +10,7 @@ p,span,a,button{
 }
 h1{
     font-size: 50px;
-    margin-top: 50px;
+
 }
 p{
     margin-top: 15px;
@@ -50,14 +50,9 @@ p{
 /* 
 dream section */
 
-
-.dream__content{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-    margin-top: 5%;
-}
-.dream__content img{
-    width: 100%;
+.biography__section{
+    background-image: url('../img/peter_dream.png') !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
